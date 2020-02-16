@@ -3,16 +3,15 @@ html {
 	padding: 0;
 }
 body {
-	font-family: 'Handlee', cursive;
-	font-size: 13pt;
-	background-color: #efefef;
+	background-color: #252525;
 	padding: 10px;
 	margin: 0;
 }
 h1 {
-	font-size: 15pt;
+	font-family: 'Roboto Slab', serif;
 	color: #83E3BE;
-	text-align: center
+	margin-top: 4px;
+	margin-bottom: 1px;
 }
 img {
 	border-radius: 50%;
@@ -25,18 +24,26 @@ img {
 	width: 50%;
 }
 p {
+	font-family: 'Oxygen', sans-serif;
+	color: #fff;
 	padding: 0;
 	margin: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1px;
+	text-align: center;
 }
 .img-circle {
 	border: 3px solid white;
 	border-radius: 50%;
 }
 .section {
-	background-color: #fff;
+	background-color: #303030;
 	padding: 15px;
-	margin-bottom: 10px;
-	border-radius: 10px;
+	margin-bottom: 2px;
+	margin-top: 20px;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .quote {
 	font-size: 12pt;
