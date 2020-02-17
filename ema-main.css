@@ -8,16 +8,22 @@ body {
 	margin: 0;
 }
 h1 {
-	font-family: 'Roboto Slab', serif !important;
-	color: #83E3BE !important;
+	font-family: 'Roboto Slab', serif;
+	color: #83E3BE;
 	margin-top: 4px;
 	margin-bottom: 1px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 h2 {
 	font-family: 'Roboto Slab', serif;
 	color: #83E3BE;
 	margin-top: 0px;
 	margin-bottom: 3px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 img {
 	border-radius: 50%;
