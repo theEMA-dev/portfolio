@@ -8,8 +8,8 @@ body {
 	margin: 0;
 }
 h1 {
-	font-family: 'Roboto Slab', serif;
-	color: #83E3BE;
+	font-family: 'Roboto Slab', serif !important;
+	color: #83E3BE !important;
 	margin-top: 4px;
 	margin-bottom: 1px;
 }
