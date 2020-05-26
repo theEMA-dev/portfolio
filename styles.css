@@ -1,0 +1,258 @@
+body {
+  background-image: url(images/mobile-bg.jpg);
+  background-color: #252525;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+h1 {
+  color: #83E3BE;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  font-size: 42px;
+}
+h2 {
+  color: #83E3BE;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.quote {
+  font-family: Oxygen, sans-serif;
+  color: #83E3BE;
+  text-align: center;
+  margin-top: -8px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 40%;
+  max-width: 300px;
+}
+.section {
+  background-color: #282828;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius: 3px;
+}
+#toptext {
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(230, 230, 230);
+}
+
+.ripple {
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid;
+  border-radius: 4px;
+  border-color: rgb(230, 230, 230);
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(230, 230, 230);
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 200px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+.ripple:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+@media only screen and (max-width: 600px) {
+  .ripple {
+    width: 120px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+    letter-spacing: 3px;
+  }
+  .ripple:hover {
+    letter-spacing: 3px !important;
+  }
+}
+.ripple:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: #83E3BE;
+  color: #83E3BE;
+  letter-spacing: 7px;
+}
+
+.ripple:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#centerbutton {
+  text-align: center;
+}
+button:focus {outline:0;}
+
+.progress {
+  background-color: #212121 ;
+  height: 15px;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: gray;
+}
+.fa-envelope:hover {
+  color: rgb(71, 135, 255);
+}
+.fa-github:hover {
+  color: rgb(255, 111, 171);
+}
+.fa-code:hover {
+  color: rgb(94, 255, 102);
+}
+.fa-discord:hover {
+  color: rgb(146, 88, 255);
+}
+.fa-behance:hover {
+  color: rgb(255, 88, 88);
+}
+.fa-envelope {
+  margin-right: 50px;
+  transition: 0.3s;
+}
+.fa-github {
+  margin-right: 50px;
+  transition: 0.3s;
+}
+.fa-code {
+  margin-right: 50px;
+  transition: 0.3s;
+}
+.fa-discord {
+  margin-right: 50px;
+  transition: 0.3s;
+}
+.fa-behance {
+  transition: 0.3s;
+}
+/* nav section ----------------------------------------- */
+#head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(40, 40, 40, 0);
+  background: linear-gradient(0deg, rgba(40,40,40,0.5284488795518207) 0%, rgba(40,40,40,1) 100%);
+  transition: 0.3s;
+  position: fixed;
+  top: -80px;
+}
+#navlogo {
+  max-width: 70px;
+  height: 52px;
+  margin-top: 10px;
+  margin-left: 4%;
+  float: right;
+  display: 1;
+}
+#navigation {
+  height: 74px;
+  display: 1;
+}
+#navbar {
+  display: table;
+  margin: 0 auto;
+  float: right;
+}
+ul#navlist {
+  list-style: none;
+  margin-top: 24px;
+  margin-right: 25px;
+}
+ul#navlist li {
+  display: inline;
+  margin-right: 25px;
+  color: aliceblue;
+}
+li a {
+  transition: 0.3s;
+}
+li a:hover {
+  color: #83E3BE;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* for tablets and phones */
+@media only screen and (max-width: 600px) {
+  .fa-envelope {
+    font-size: 35px;
+    margin-right: 30px;
+  }
+  .fa-github {
+    font-size: 35px;
+    margin-right: 30px;
+  }
+  .fa-code {
+    font-size: 35px;
+    margin-right: 30px;
+  }
+  .fa-discord {
+    font-size: 35px;
+    margin-right: 30px;
+  }
+  .fa-behance {
+    font-size: 35px;
+  }
+}
+/* for mobile phones */
+@media only screen and (max-width: 400px) {
+  .fa-envelope {
+    font-size: 30px;
+    margin-right: 15px;
+  }
+  .fa-github {
+    font-size: 30px;
+    margin-right: 15px;
+  }
+  .fa-code {
+    font-size: 30px;
+    margin-right: 15px;
+  }
+  .fa-discord {
+    font-size: 30px;
+    margin-right: 15px;
+  }
+  .fa-behance {
+    font-size: 30px;
+  }
+}

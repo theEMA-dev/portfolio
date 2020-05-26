@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a927996600.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Slab&display=swap" rel="stylesheet">
+  </head>
+  <body>   
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <header id="head">
+      <img src="images/logo.png" id="navlogo">
+      <nav id="navigation">
+        <div id="navbar">
+          <ul id="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="page/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <img src="images/profile.png" alt="theEMA" class="center" border="0">
+      <h1>theEMA</h1>
+      <p class="quote">Designer & Developer</p>
+      <p id="toptext" style="text-align: center;">I am designing <b>beautiful</b> and <b>efficient</b> website<br />designs for vanilla HTML and Wix.<br /><br />Quality is the key.</p><br />
+      <div id="centerbutton">
+      <a href="page/pricing.html"><button class="ripple">PRICING</button></a> <a href="page/contact.html"><button class="ripple">CONTACT</button></a>
+      </div>
+    </div>
+    <div class="section">
+      <h2>My Skills</h2>
+        <div class="skills">
+          <p style="color: #ffc107; text-align: center; margin-bottom: 0px; font-family: 'Oxygen', sans-serif; font-size: 14px;">Wix Design & Addons</p>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="4" aria-valuemin="4" aria-valuemax="5"></div>
+          </div>
+          <p style="color: #dc3545; text-align: center; margin-bottom: 0px; margin-top: 12px; font-family: 'Oxygen', sans-serif; font-size: 14px;">HTML & CSS Developing</p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="3" aria-valuemin="3" aria-valuemax="5"></div>
+          </div>
+          <p style="color: #17A2B8; text-align: center; margin-bottom: 0px; margin-top: 12px; font-family: 'Oxygen', sans-serif; font-size: 14px;">Photoshop and Graphic Design</p>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 40%;" aria-valuenow="3" aria-valuemin="3" aria-valuemax="5"></div>
+          </div>
+          <p style="color: #28a745; text-align: center; margin-bottom: 0px; margin-top: 12px; font-family: 'Oxygen', sans-serif; font-size: 14px;">C# and other C languages</p>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 15%;" aria-valuenow="3" aria-valuemin="3" aria-valuemax="5"></div>
+          </div>
+        </div>
+    </div>
+    <div class="section" style="text-align: center;">
+      <span style="color: gray; text-decoration: none;">
+        <a href="mailto:mstfemirkynr@pm.me"><i class="far fa-envelope fa-3x"></i></a><a href="https://github.com/theEMA-dev" target="_blank"><i class="fab fa-github fa-3x"></i></a><a href="https://code" target="_blank"><i class="fas fa-code fa-3x"></i></a><a href="https://discord" target="_blank"><i class="fab fa-discord fa-3x"></i></a><a href="https://www.behance.net/emirkaynar" target="_blank"><i class="fab fa-behance fa-3x"></i></a>
+      </span>
+    </div>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          $("#head").css("top", "0px")
+        } else {
+          $("#head").css("top", "-80px")
+        }
+      }
+    </script>
+  </body>
+  <footer>
+    <p style="color: grey; font-family: 'Oxygen', sans-serif; font-size: 10px; text-align: center; margin-top: 4px; margin-bottom: 0px;">&copy; theEMA, All rights reserved</p>
+    <p style="color: #83E3BE; font-family: 'Oxygen', sans-serif; font-size: 12px; text-align: center;">Designed by theEMA</p>
+  </footer>
+</html>
